@@ -17,7 +17,3 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: education/autograding@v1
-      - name: Instalar dependencias
-        run: npm install # O el comando necesario para instalar tus dependencias
-      - name: Ejecutar pruebas
-        run: npx jest --config jest.config.js # O el comando para ejecutar tus pruebas
